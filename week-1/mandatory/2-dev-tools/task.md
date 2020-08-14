@@ -7,11 +7,18 @@ In Google Chrome, open dev tools network tab and enter this URL into the browser
 Answer the following questions:
 
 - What's the status code the server sent back?
+  304 (showing 304 status for episodes)
 - What HTTP method did the browser use to make the request?
+  GET methode
 - What is the request path?
+  /shows/82/episodes
 - What is the first line of the response body?
+  0: {id: 4952, url: "http://www.tvmaze.com/episodes/4952/game-of-thrones-1x01-winter-is-coming",…}
+
 - What is the value of the response header called "Content-Type" ?
-- What is the value of the request header called "User-Agent"
+  Content-Type: application/json; charset=UTF-8
+- What is the value of the request header called "User-Agent"?
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
 
 ## Submission
 
